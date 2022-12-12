@@ -17,10 +17,8 @@ public class LoginController {
 
 /*    @Autowired
     Encryption encryption;
-
     @PostMapping(params = {"userName", "password"}, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseUtil userLogin(@RequestParam String userName, String password) {
-
         for (UserDTO dto : loginService.fetchAllUser()) {
             String passwordEncrypt = dto.getPassword();
             String passwordDecrypt = null;
@@ -37,7 +35,6 @@ public class LoginController {
                 return new ResponseUtil(200, "Ok", null);
             }
         }
-
         return new ResponseUtil(400, "error", null);
     }
 }*/

@@ -22,14 +22,11 @@ public class UserController {
 
   /*  @Autowired
     Encryption en;
-
     @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseUtil saveUser(@ModelAttribute UserDTO user) {
         try {
             String passwordEncrypt = en.encrypt(user.getPassword());
-
             userService.saveUser(new UserDTO(user.getUserID(), user.getUserName(), user.getAddress(), user.getEmail(), user.getContact(), passwordEncrypt, LocalDate.now().toString(), " "));
-
         } catch (InvalidKeyException e) {
             e.printStackTrace();
         } catch (UnsupportedEncodingException e) {
