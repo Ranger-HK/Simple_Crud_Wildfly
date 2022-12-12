@@ -47,7 +47,7 @@ function updateUser() {
 
     /*implement ajax request for updateUser Function*/
     $.ajax({
-        url: "http://localhost:8000/Simple_Crud_Using_SpringMVC_war/user",
+        url: "http://localhost:8080/Simple_Crud_Wildfly_war/user",
         method: "PUT",
         contentType: "application/json", //request content type json
         data: JSON.stringify(userOb), //convert valid json String
@@ -80,7 +80,7 @@ $("#btnDelete").click(function () {
     let userID = $("#txtUserId").val();
 
     $.ajax({
-        url: "http://localhost:8000/Simple_Crud_Using_SpringMVC_war/user?userID=" + userID,
+        url: "http://localhost:8080/Simple_Crud_Wildfly_war/user?userID=" + userID,
         method: "DELETE",
         success: function (resp) {
             if (resp.code === 200) {

@@ -16,7 +16,7 @@ $("#btnLog").click(function () {
 
 //invoked ajax
     $.ajax({
-        url: 'http://localhost:8080/Simple_Crud_Wildfly_war//login?userName=' + obj.userName + '&password=' + obj.password,
+        url: 'http://localhost:8080/Simple_Crud_Wildfly_war/login?userName=' + obj.userName + '&password=' + obj.password,
         method: 'POST',
         success: function (res) {
             console.log(res);
