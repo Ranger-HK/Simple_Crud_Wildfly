@@ -10,7 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Simple_Crud_Wildfly" target="1.5" />
+      <module name="Simple_Crud_Wildfly" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Simple_Crud_Wildfly" options="-endorseddirs &quot;D:\EPIC ALL PROJECTS\Simple_Crud_Wildfly\Simple_Crud_Wildfly\target/endorsed&quot;" />
+    </option>
   </component>
 </project>
