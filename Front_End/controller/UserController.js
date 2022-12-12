@@ -10,7 +10,7 @@ function loadAllUsers() {
     /*invoked ajax for send a request*/
     $("#userTable").empty();
     $.ajax({
-        url: "http://localhost:8000/Simple_Crud_Using_SpringMVC_war/user",
+        url: "http://localhost:8080/Simple_Crud_Wildfly_war/user",
         method: "GET",
         //convert to json format
         dataType: "json",

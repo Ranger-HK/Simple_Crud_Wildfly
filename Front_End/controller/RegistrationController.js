@@ -30,7 +30,7 @@ function registrationUser() {
 
     /*----------------------ajax for saveCustomer function---------------------------*/
     $.ajax({
-        url: "http://localhost:8000/Simple_Crud_Using_SpringMVC_war/user",
+        url: "http://localhost:8080/Simple_Crud_Wildfly_war/user",
         method: "POST",
         data: "userID=" + user.userID + "&" + "userName=" + user.userName + "&" + "address=" + user.address + "&" + "email=" + user.email + "&" + "contact=" + user.contact + "&" + "password=" + user.password, //if we send data with the request
         success: function (res) {
