@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Simple_Crud_Wildfly:war exploded">
-    <output-path>$PROJECT_DIR$/Simple_Crud_Wildfly/target/Simple_Crud_Wildfly-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/Simple_Crud_Wildfly/target/Simple_Crud_Wildfly</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
